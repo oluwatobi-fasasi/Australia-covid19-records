@@ -233,6 +233,6 @@ Thank you for your continued support.
 
 ## 📝 License <a name="license"></a>
 
-[![MIT License](https://github.com/oluwatobi-fasasi/canada-covid19-records/blob/day-1/LICENSE)
+[MIT License](https://github.com/oluwatobi-fasasi/canada-covid19-records/blob/day-1/LICENSE)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
