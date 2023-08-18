@@ -20,7 +20,6 @@ export default function Details() {
           <div>
             <div className="bg-green-200 flex justify-center py-5 md:h-fit">
               <img src={logo} alt="logo" className="" />
-              <p>Lagoo</p>
             </div>
             <ul className="flex flex-col">
               {data.map((item) => (
