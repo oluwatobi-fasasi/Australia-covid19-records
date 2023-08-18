@@ -94,11 +94,11 @@ Stay informed about the latest COVID-19 statistics with our COVID-19 Data App. O
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo]()
+- [Live Demo](https://australia-covid-report.netlify.app/)
 
 ## 🚀 Project Presentation <a name="project-presentation"></a>
 
-- [Project Presentation ]()
+- [Project Presentation ](https://www.loom.com/share/6287d1be16ae4978b98aa5af5f86d754?sid=ae02ede1-d59f-4db4-b345-af921d5ec416)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +118,7 @@ Clone this repository to your desired folder:
 
 ```sh
 cd my-folder
-git clone
+git clone https://github.com/oluwatobi-fasasi/Australia-covid19-records.git
 ```
 
 ### Install
@@ -187,10 +187,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/RileyManda/Air-quality/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-<!-- SUPPORT -->
 
 ## <b>Show your support 🌟</b><a name="support"></a>
 
