@@ -1,15 +1,13 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { faAngleLeft, faGear, faMicrophone } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (
-    <div className="flex justify-between px-20 py-5 bg-green-700 text-white text-4xl font-extrabold">
+    <div className="flex justify-between p-5 bg-green-700 text-white text-sm font-extrabold">
       <Link to="/">
-        <p className="text-4xl font-extrabold">
+        <p className="text-sm font-extrabold md:text-2xl">
           <FontAwesomeIcon icon={faAngleLeft} />
           {' '}
           2020
@@ -19,8 +17,8 @@ export default function NavBar() {
       <h1 className="md:text-2xl lg:text-4xl">Australia Covid19 Report</h1>
 
       <div>
-        <FontAwesomeIcon icon={faMicrophone} className="pr-5" />
-        <FontAwesomeIcon icon={faGear} />
+        <FontAwesomeIcon icon={faMicrophone} className="pr-2 md:text-2xl" />
+        <FontAwesomeIcon icon={faGear} className="md:text-2xl" />
       </div>
     </div>
   );
