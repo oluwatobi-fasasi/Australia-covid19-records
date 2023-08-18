@@ -5,14 +5,13 @@ import { Provider } from 'react-redux';
 import Home from './Home';
 import store from '../redux/store';
 
-
 test('renders list of cases with links', () => {
   const { getByText } = render(
     <Router>
       <Provider store={store}>
         <Home />
       </Provider>
-    </Router>
+    </Router>,
   );
 
   const caseRegion = getByText(/Database/i);
