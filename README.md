@@ -37,8 +37,6 @@
 # 📖 Covid Report <a name="about-project"></a>
 
 Stay informed about the latest COVID-19 statistics with our COVID-19 Data App. Our user-friendly interface and interactive visuals provide real-time data on cases, recoveries, and fatalities. Filter and search for specific information, explore region-specific details, and make informed decisions based on accurate, reliable data sourced from trusted health organizations. Download the app today and stay connected to the latest COVID-19 updates to navigate these challenging times with confidence.
-<img src="app-screenshot.png" alt="logo" width="140"  height="auto" />
-<img src="detail-screenshot.png" alt="logo" width="140"  height="auto" />
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -85,6 +83,8 @@ Stay informed about the latest COVID-19 statistics with our COVID-19 Data App. O
 ### Features <a name="key-features"></a>
 
 **Home Page:Display report in Australia**
+<br />
+
 **Details Page:Display covid details**
 
 <p align="right">
@@ -174,7 +174,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Search and filter by city]**
+- [ ] **Search and filter by region**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
