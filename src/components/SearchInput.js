@@ -22,7 +22,7 @@ const SearchInput = ({ handleSearch }) => {
 };
 
 SearchInput.propTypes = {
-  handleSearch: PropTypes.func.isRequired, // Validate handleSearch prop
+  handleSearch: PropTypes.func.isRequired,
 };
 
 export default SearchInput;

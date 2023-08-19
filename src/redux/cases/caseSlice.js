@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_BASE_URL = 'https://api.api-ninjas.com/v1/covid19?country=Australia';
+export const API_BASE_URL = 'https://api.api-ninjas.com/v1/covid19?country=Australia';
 const headers = {
   'X-Api-Key': 'LgO37qqgJKI555yev5bcsQ==feYBZkk2G964hlS1',
 };

@@ -9,8 +9,6 @@ test('renders navbar with correct text and icons', () => {
       <NavBar />
     </Router>,
   );
-
-  // Check if the component renders the correct text
   const titleElement = getByText(/Australia Covid19 Report/i);
   expect(titleElement).toBeInTheDocument();
 });

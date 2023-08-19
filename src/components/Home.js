@@ -1,8 +1,5 @@
 import { React, useState } from 'react';
 import { useSelector } from 'react-redux';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faRightLong } from '@fortawesome/free-solid-svg-icons';
-// import { Link } from 'react-router-dom';
 import { selectAll } from '../redux/cases/caseSlice';
 import logo from '../images/covid-19.png';
 import SearchInput from './SearchInput';
