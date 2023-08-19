@@ -8,7 +8,6 @@ import HomeContents from './HomeContents';
 export default function Home() {
   const { cases } = useSelector(selectAll);
   const [searchResults, setSearchResults] = useState([]);
-  // const [data, setData] = useState(cases);
 
   const handleSearch = (searchTerm) => {
     const filteredCases = cases.filter((item) => item.region.toLowerCase()
@@ -19,7 +18,7 @@ export default function Home() {
   return (
     <div>
       <div className="bg-green-200 flex flex-col items-center py-5">
-        <img src={logo} alt="logo" className="w-40 h-40 md:w-full md:h-full" />
+        <img src={logo} alt="logo" className="w-40 h-40 md:w-96 md:h-96" />
         <p className="md:text-2xl lg:text-4xl text-gray-400 pb-2">Database</p>
         <SearchInput handleSearch={handleSearch} />
       </div>

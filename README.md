@@ -98,7 +98,7 @@ Stay informed about the latest COVID-19 statistics with our COVID-19 Data App. O
 
 ## 🚀 Project Presentation <a name="project-presentation"></a>
 
-- [Project Presentation ](https://www.loom.com/share/6287d1be16ae4978b98aa5af5f86d754?sid=ae02ede1-d59f-4db4-b345-af921d5ec416)
+- [Project Presentation ](https://www.loom.com/share/3de9ea5309cc41ae8810ec081ee77955?sid=d728e399-616d-49e7-8b96-aac341029199)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
