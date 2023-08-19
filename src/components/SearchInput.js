@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 const SearchInput = ({ handleSearch }) => {
-  const [searchTerm, setSearchTerm] = useState('');
-
   const handleChange = (e) => {
-    setSearchTerm(e.target.value);
     handleSearch(e.target.value);
   };
 
@@ -14,7 +11,6 @@ const SearchInput = ({ handleSearch }) => {
       <input
         type="text"
         placeholder="Search by region..."
-        value={searchTerm}
         onChange={handleChange}
       />
     </div>
